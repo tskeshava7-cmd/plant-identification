@@ -1,0 +1,26 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Large Model Weights & Datasets (Prevent exceeding GitHub size limits)
+plant_model.keras
+plant_model.h5
+dataset/
+Train_Set_Folder/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit config
+.streamlit/
